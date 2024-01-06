@@ -1,0 +1,32 @@
+.max-width-800 {
+  max-width: 800px !important;
+}
+
+.max-width-764 {
+  max-width: 764px !important;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+
+.line-height-unset {
+  line-height: unset !important;
+}
+
+.padding-left-0 {
+  padding-left: 0 !important;
+}
+
+.padding-right-1rem {
+  padding-right: 1rem !important;
+}
+
+.border-bottom-radius-1px {
+  border-bottom: 1px solid white !important;
+}
+
+.border-bottom-radius-none {
+  border-bottom-left-radius: unset !important;
+  border-bottom-right-radius: unset !important;
+}

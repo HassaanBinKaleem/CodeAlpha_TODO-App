@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+:root {
+  /* Primary */
+
+  --Bright-Blue: hsl(220, 98%, 61%);
+  --Check-Background: linear-gradient(to right, #55ddff, #c058f3);
+
+  /* Neutral */
+  /* Light Theme */
+
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Very-Light-Grayish-Blue: hsl(236, 33%, 92%);
+  --Light-Grayish-Blue: hsl(233, 11%, 84%);
+  --Dark-Grayish-Blue: hsl(236, 9%, 61%);
+  --Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+
+  /* Dark Theme */
+
+  --Very-Dark-Blue: hsl(235, 21%, 11%);
+
+  --Very-Dark-Desaturated-Blue: hsl(235, 24%, 19%);
+  --Light-Grayish-Blue: hsl(234, 39%, 85%);
+  --Light-Grayish-Blue-hover: hsl(236, 33%, 92%);
+  --Dark-Grayish-Blue: hsl(234, 11%, 52%);
+  --Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+}
+
+body {
+  background-color: var(--Very-Dark-Blue);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mobile-image {
+  display: none;
+}
+
+.light-mode-icon:hover {
+  cursor: pointer;
+}
+
+.todo {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  position: absolute;
+  /* top: 10vh; */
+  top: 5vh;
+  left: 20vw;
+}
+
+.todo-heading {
+  letter-spacing: 1vw;
+  font-weight: 600;
+}
+
+.todo-form {
+  /* border: 2px solid yellow; */
+  position: absolute;
+  /* top: 25vh; */
+  top: 20vh;
+  left: 20vw;
+}
+
+.form {
+  display: flex;
+  background-color: var(--Very-Dark-Desaturated-Blue);
+  border-radius: 0.5vw;
+}
+
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
+  border: 1px solid #c058f3;
+}
+
+.checkbox-input {
+  border-radius: 1vw !important;
+  margin: 4vh 0vw !important;
+  --bs-form-check-bg: none !important;
+  border: var(--bs-border-width) solid var(--Very-Dark-Grayish-Blue);
+}
+
+#form-input {
+  width: 100%;
+  background-color: var(--Very-Dark-Desaturated-Blue);
+  border: none;
+  color: white;
+  padding: 3vh;
+  border-radius: 1vw;
+}
+
+#form-input:focus {
+  outline: none;
+}
+
+.todo-list {
+  padding: 0vh 0vw;
+  position: absolute;
+  top: 35vh;
+  left: 21vw;
+  max-width: 775px !important;
+}
+
+.item-display-area {
+  width: 100%;
+  background-color: var(--Very-Dark-Desaturated-Blue);
+  border: none;
+  padding: 3.6vh 0vw 0vh 1vw;
+  color: white;
+}
+
+.cross-icon-img {
+  height: 3vh;
+  margin: auto 2vw;
+}
+
+.cross-icon-img:hover {
+  cursor: pointer;
+}
